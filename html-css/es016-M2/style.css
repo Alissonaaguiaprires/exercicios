@@ -1,0 +1,27 @@
+@charset "UTF-8" ;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+body {
+background-image: linear-gradient(to right, #3838B2, #3B3B5C);
+}
+main {
+    background-color: white;
+    border-radius: 10px;/*para deixar as bordas mais arredondadas*/
+    box-shadow: 5px 5px 15 px rgba(21, 21, 32, 0.541);
+    width: 600px;
+    padding: 10px;
+    margin: auto;/*para deixar o main(div) centralizado mesmo caso mecha na pagina aumentando ou diminuindo*/
+}
+h1{
+    color: #F39209;
+    text-align: center;
+    text-shadow: 1px 1px 2px #c27305c1;
+}
+h2{
+    color: #125189;
+}
+p {
+    text-align: justify;
+}

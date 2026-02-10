@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(103, 103, 103);
+            margin: 0px;
+        }
+        header{
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px ;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+        footer{
+            background-color: rgb(58, 57, 57);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        article > aside{
+            background-color: rgb(87, 84, 84);
+        }
+
+        article{
+            background-color:lightgray ;
+            padding: 5px;
+
+        }
+        nav{ background-color: rgb(78, 77, 77);
+              padding: 3px;
+              box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        div#bo{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+            <h1>Meu site</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+        </header>
+            <main>
+                <section id="a">
+                    <p>Esportes Politica Tecnologia </p>
+                </section>
+                <section id="n">
+                    <article>
+                        <h2>Noticias</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vero recusandae, in cumque aliquam nihil natus cum iusto blanditiis temporibus consequuntur optio, et harum! Ratione possimus ipsa et excepturi optio.</p>
+                        <aside>
+                            <p>Artigo escrito por Fátima da Silva</p>
+                        </aside>
+                    </article>
+                    <article>
+
+                    </article>
+                </section>
+            </main>
+            <Footer>
+                <p>Desenvolvido por Alisson Aguiar Pires</p>
+            </footer>
+            <div id="bo">
+
+            </div>
+</body>
+</html>
